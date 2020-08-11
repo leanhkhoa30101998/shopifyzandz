@@ -727,6 +727,7 @@ header{
     }
     .footer_contact-bottom--img{
         top: -20%;
+        width: 20%;
     }
     .footer_contact-div--title{
         font-size: 1.5em;
