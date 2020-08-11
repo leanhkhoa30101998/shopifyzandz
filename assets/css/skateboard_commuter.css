@@ -1,0 +1,411 @@
+    /* CONTENT1 */
+    .sc_content1{
+        width: 100%;
+    }
+    .sc_content1_img{
+        width: 100%;
+    }
+    .sc_content1_img img{
+        padding-top: 8.2vw;
+        width: 100%;
+    }
+    
+        /* END CONTENT 1 */
+    
+    
+        /* CONTENT 2 */
+.sc_content2{
+    width: 100%;
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 10vw;
+}
+.sc_content2-title{
+    font-family: 'day28latter';
+    font-size: 3em;
+    width: 15em;
+    margin: 0 auto 4vw;
+    position: relative;
+    line-height: initial;
+}
+.sc_content2-title::before{
+    content: "";
+    width: 150px;
+    position: absolute;
+    background-color: red;
+    height: 4px;
+    bottom: 0;
+    left: 40%;
+}
+.sc_content2-text{
+    font-family: avenir;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.3em;
+}
+.sc_content2-text1{
+    margin-bottom: 2vw;
+}    
+        /* END CONTENT 2 */
+    
+        /* CONTENT 3 */
+.sc_content3{
+    width: 100%;
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 5vw;
+}
+.sc_content3-title{
+    font-family: 'day28latter';
+    font-size: 3em;
+    width: 15em;
+    margin: 0 auto 4vw;
+    position: relative;
+    line-height: initial;
+}
+.sc_content3-title::before{
+    content: "";
+    width: 150px;
+    position: absolute;
+    background-color: red;
+    height: 4px;
+    bottom: 0;
+    left: 40%;
+}
+.sc_content3-text{
+    font-family: avenir;
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.3em;
+}
+.sc_content3-text1, .sc_content3-text2{
+    margin-bottom: 2vw;
+}
+        /* END CONTENT 3 */
+    
+
+        /* CONTENT 4 */
+
+.sc_content4{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+}
+.sc_content4-left{
+    width: 30%;
+    margin-left: 5vw;
+}
+.sc_content4-mid{
+    width: 20%;
+    text-align: center;
+}
+.sc_content4-mid img{
+    width: 50%;
+}
+.sc_content4-right{
+    width: 30%;
+    margin-right: 5vw;
+}
+.sc_content4-left, .sc_content4-right{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.sc_content4-div--title{
+    text-transform: uppercases;
+    font-family: 'akaChen';
+    font-size: 2em;
+}
+
+        /* END CONTENT 4 */
+
+        /* CONTENT 5 */
+
+.sc_content5{
+    width: 100%;
+}
+.sc_content5-list{
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    padding: 20vw 0 20vw 0;
+}
+.sc_content5-div{
+    width: 25%;
+    text-align: center;
+}
+.sc_content5-div--top{
+    font-family: 'akaChen';
+    font-size: 3em;
+    line-height: initial;
+}
+.sc_content5-div--bottom{
+    font-family: 'akaChen';
+    font-size: 2em;
+}
+
+        /* END CONTENT 5 */
+
+        /* CONTENT 8 */
+
+.sc_content8{
+    width: 100%;
+}
+.sc_content8-list{
+    display: flex;
+    justify-content: center;
+}
+.sc_content8-div{
+    width: 20%;
+    padding: 12vw 0 13vw 0;
+    text-align: center;
+}
+
+        /* END CONTENT 8 */
+
+        /* FOOTER */
+    
+    .footer{
+        margin-top: 0;
+    }
+    .footer_contact-bottom--img{
+        position: absolute;
+        width: 150px;
+        left: 15%;
+        top: -30%;
+    }
+    
+    /* RESPONSIVE */
+    
+    @media only screen and (max-width: 1200px) {
+        .footer_contact-bottom--img{
+            width: 10%;
+        }
+        .sc_content1_img img{
+            padding-top: 10vw;
+            width: 100%;
+        }
+        .sc_content4-left, .sc_content4-right{
+            width: 35%;
+        }
+        .sc_content4-div--desc{
+            font-size: 1em;
+        }
+        .sc_content5-list{
+            padding: 20vw 0 17vw 0;
+        }
+        .sc_content5-div--top{
+            font-size: 2.5em;
+        }
+        .sc_content5-div--bottom{
+            font-size: 1.8em;
+        }
+        .sc_content5-div{
+            width: 23%;
+        }
+    }
+    @media only screen and (max-width: 992px) {
+        .sc_content1_img img{
+            padding-top: 10.5vw;
+            width: 100%;
+        }
+        .sc_content2-text{
+            font-size: .9em;
+        }
+        .sc_content3-text{
+            font-size: .9em;
+        }
+        .sc_content4-div--title{
+            font-size: 1.5em;
+            line-height: initial;
+        }
+        .sc_content4-div--desc{
+            font-size: .9em;
+        }
+        .sc_content5-div--top{
+            font-size: 2em;
+        }
+        .sc_content5-div--bottom{
+            font-size: 1.5em;
+        }
+    }
+    @media only screen and (max-width: 768px) {
+        .sc_content1_img img{
+            padding-top: 16vw;
+            width: 100%;
+        }
+        .sc_content2-title{
+            font-size: 2em;
+            width: 12em;
+        }
+        .sc_content2-title::before{
+            width: 100px;
+            height: 3px;
+            left: 38%;
+        }
+        .sc_content3-title{
+            font-size: 2em;
+            width: 12em;
+        }
+        .sc_content3-title::before{
+            width: 100px;
+            height: 3px;
+            left: 38%;
+        }
+        .sc_content4-mid img{
+            width: 90%;
+        }
+        .sc_content4-left, .sc_content4-right{
+            width: 32%;
+        }
+        .sc_content4-div--title{
+            font-size: 1.3em;
+        }
+        .sc_content4-div--desc{
+            font-size: .8em;
+        }
+        .sc_content5-div--top{
+            font-size: 1.6em;
+        }
+        .sc_content5-div--bottom{
+            font-size: 1.3em;
+        }
+    }
+    @media only screen and (max-width: 600px) {
+        .sc_content1_img img{
+            padding-top: 15vw;
+            width: 100%;
+        }
+        .sc_content2-title{
+            font-size: 2em;
+            width: 10em;
+        }
+        .sc_content2-title::before{
+            width: 100px;
+            height: 3px;
+            left: 36%;
+        }
+        .sc_content3-title{
+            font-size: 2em;
+            width: 10em;
+        }
+        .sc_content3-title::before{
+            width: 100px;
+            height: 3px;
+            left: 36%;
+        }
+        .sc_content5-div--top{
+            font-size: 1.3em;
+        }
+        .sc_content5-div--bottom{
+            font-size: 1em;
+        }
+        .sc_content8-div{
+            width: 23%;
+        }
+    }
+    @media only screen and (max-width: 480px) {
+        .sc_content1_img img{
+            padding-top: 16.5vw;
+            width: 100%;
+        }
+        .sc_content2-title{
+            font-size: 2em;
+        }
+        .sc_content3-title{
+            font-size: 2em;
+        }
+        .sc_content4-mid img{
+            padding: 30px 0;
+        }
+        .sc_content4-div--desc{
+            font-size: .6em;
+        }
+        .sc_content5-div--top{
+            font-size: 1.1em;
+        }
+        .sc_content5-div--bottom{
+            font-size: .8em;
+        }
+        .sc_content8-div{
+            width: 23%;
+        }
+    }
+    @media only screen and (max-width: 425px) {
+        .sc_content1_img img{
+            padding-top: 18.5vw;
+            width: 100%;
+        }
+        .sc_content2-text{
+            font-size: .8em;
+        }
+        .sc_content2-title{
+            font-size: 2em;
+            width: 6em;
+        }
+        .sc_content2-title::before{
+            width: 80px;
+            height: 2px;
+            left: 23%;
+        }
+        .sc_content3-text{
+            font-size: .8em;
+        }
+        .sc_content3-title{
+            font-size: 2em;
+            width: 6em;
+        }
+        .sc_content3-title::before{
+            width: 80px;
+            height: 2px;
+            left: 23%;
+        }
+        .sc_content5-div--top{
+            font-size: 1em;
+        }
+        .sc_content5-div--bottom{
+            font-size: .7em;
+        }
+        .sc_content8-div{
+            width: 23%;
+        }
+    }
+    @media only screen and (max-width: 375px) {
+        .sc_content1_img img{
+            padding-top: 20.9vw;
+            width: 100%;
+        }
+        .sc_content2-title{
+            font-size: 1.5em;
+        }
+        .sc_content3-title{
+            font-size: 1.5em;
+        }
+        .sc_content4-div--title{
+            font-size: 1.1em;
+        }
+        .sc_content4-div--desc{
+            font-size: .5em;
+        }
+        .sc_content4-mid img{
+            padding: 35px 0;
+        }
+        .sc_content5-div--top{
+            font-size: 1em;
+        }
+        .sc_content5-div--bottom{
+            font-size: .7em;
+        }
+        .sc_content5-div{
+            width: 24%;
+        }
+        .sc_content5-div--top{
+            font-size: .9em;
+        }
+        .sc_content5-div--bottom{
+            font-size: .6em;
+        }
+        .sc_content8-div{
+            width: 24%;
+        }
+    }

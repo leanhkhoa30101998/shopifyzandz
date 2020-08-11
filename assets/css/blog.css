@@ -1,0 +1,215 @@
+/* CONTENT1 */
+.bl_content1{
+    width: 100%;
+}
+.bl_content1_img{
+    width: 100%;
+}
+.bl_content1_img img{
+    padding-top: 8.2vw;
+    width: 100%;
+}
+    
+        /* END CONTENT 1 */
+    
+    
+        /* CONTENT 2 */
+.bl_content2{
+    margin-top: 3vw;
+    margin-bottom: 10vw;
+}
+.bl_content2-list{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 5vw;
+}
+.bl_content2-div{
+    padding: 20px;
+    width: 25%;
+    text-align: center;
+    border: 1px solid gray;
+    margin: 15px;
+    border-radius: 10px;
+    box-shadow: 0px 0px 8px 1px #888888;
+}
+.bl_content2-img{
+    padding-bottom: 15px;
+    width: 100%;
+    text-align: center;
+}
+.bl_content2-img img{
+    width: 100%;
+}
+.bl_content2-time{
+    display: flex;
+    justify-content: center;
+
+}
+.bl_content2-time--name{
+    padding-right: 15px;
+}
+.bl_content2-time--name i, .bl_content2-time--day i{
+    color: #d9c82f;
+}
+.bl_content2-time--name, .bl_content2-time--day{
+    font-weight: bold;
+}
+.bl_content2-tittle{
+    font-size: 1.2em;
+    padding: 10px 0;
+    font-weight: bold;
+}
+.bl_content2-desc{
+    font-size: 1em;
+}
+.bl_content2-button{
+    margin-top: 2vw;
+    margin-bottom: 1vw;
+}
+.bl_content2-button a{
+    text-decoration: none;
+    color: #6e6e6e;
+    padding: 10px 20px;
+    background-color: #16f016;
+    text-transform: uppercase;
+    border-radius: 5px;
+    font-size: .8em;
+    font-weight: bold;
+}
+.bl_content2-button a:hover{
+    text-decoration: none;
+    color: #6e6e6e;
+}
+        /* END CONTENT 2 */
+
+        /* FOOTER */
+    
+.footer{
+    margin-top: 0;
+}
+.footer_contact-bottom--img{
+    position: absolute;
+    width: 150px;
+    left: 15%;
+    top: -30%;
+}
+    
+    /* RESPONSIVE */
+    
+@media only screen and (max-width: 1200px) {
+    .footer_contact-bottom--img{
+        width: 10%;
+    }
+    .bl_content1_img img{
+        padding-top: 10vw;
+        width: 100%;
+    }
+    .bl_content2-div{
+        width: 27%;
+        padding: 15px;
+        margin: 10px;
+    }
+    .bl_content2-time--name, .bl_content2-time--day{
+        font-size: .9em;
+    }
+    .bl_content2-tittle{
+        font-size: 1.1em;
+    }
+    .bl_content2-desc{
+        font-size: .9em;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .bl_content1_img img{
+        padding-top: 10.5vw;
+        width: 100%;
+    }
+    .bl_content2-div{
+        width: 29%;
+        padding: 13px;
+    }
+    .bl_content2-time--name, .bl_content2-time--day{
+        font-size: .7em;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .bl_content1_img img{
+        padding-top: 16vw;
+        width: 100%;
+    }
+    .bl_content2-list .bl_content2-div:first-child{
+        display: none;
+    }
+    .bl_content2-div{
+        width: 40%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .bl_content1_img img{
+        padding-top: 15vw;
+        width: 100%;
+    }
+    .bl_content2-div{
+        width: 43%;
+    }
+    .bl_content2-time--name{
+        padding-right: 11px;
+    }
+    .bl_content2-desc{
+        font-size: .8em;
+    }
+    .bl_content2-button a{
+        padding: 5px 15px;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .bl_content1_img img{
+        padding-top: 16.5vw;
+        width: 100%;
+    }
+    .bl_content2-div{
+        width: 45%;
+        margin: 5px;
+    }
+    .bl_content2-time--name{
+        padding-right: 10px;
+    }
+    .bl_content2-time--name, .bl_content2-time--day{
+        font-size: .6em;
+    }
+    .bl_content2-tittle{
+        font-size: 1em;
+    }
+    .bl_content2-desc{
+        font-size: .7em;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .bl_content1_img img{
+        padding-top: 18.5vw;
+        width: 100%;
+    }
+    .bl_content2-list{
+        display: block;
+    }
+    .bl_content2-div{
+        width: 70%;
+        margin: 15px auto;
+    }
+    .bl_content2-list .bl_content2-div:first-child{
+        margin-bottom: 2vw;
+    }
+    .bl_content2-time--name{
+        padding-right: 25px;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .bl_content1_img img{
+        padding-top: 20.9vw;
+        width: 100%;
+    }
+    .bl_content2-title{
+        font-size: 1.5em;
+    }
+}

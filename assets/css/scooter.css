@@ -1,0 +1,102 @@
+    /* CONTENT1 */
+.sc_content1{
+    width: 100%;
+}
+.sc_content1_img{
+    width: 100%;
+}
+.sc_content1_img img{
+    padding-top: 8.2vw;
+    width: 100%;
+}
+    
+        /* END CONTENT 1 */
+    
+    
+        /* CONTENT 2 */
+.sc_content2{
+    width: 100%;
+    text-align: center;
+    margin-top: 3vw;
+    margin-bottom: 10vw;
+}
+.content2_title h2{
+    width: 330px;
+}
+.sc_content2-text{
+    font-family: 'avenir';
+    width: 90%;
+    margin: 0 auto;
+    font-size: 1.3em;
+    margin-top: 5vw;
+}
+.sc_content2-text1{
+    margin-bottom: 2vw;
+}    
+        /* END CONTENT 2 */
+
+        /* FOOTER */
+    
+    .footer{
+        margin-top: 0;
+    }
+    .footer_contact-bottom--img{
+        position: absolute;
+        width: 150px;
+        left: 15%;
+        top: -30%;
+    }
+    
+    /* RESPONSIVE */
+    
+@media only screen and (max-width: 1200px) {
+    .footer_contact-bottom--img{
+        width: 10%;
+    }
+    .sc_content1_img img{
+        padding-top: 10vw;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 992px) {
+    .sc_content1_img img{
+        padding-top: 10.5vw;
+        width: 100%;
+    }
+    .sc_content2-text{
+        font-size: .9em;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .sc_content1_img img{
+        padding-top: 16vw;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 600px) {
+    .sc_content1_img img{
+        padding-top: 15vw;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 480px) {
+    .sc_content1_img img{
+        padding-top: 16.5vw;
+        width: 100%;
+    }
+}
+@media only screen and (max-width: 425px) {
+    .sc_content1_img img{
+        padding-top: 18.5vw;
+        width: 100%;
+    }
+    .sc_content2-text{
+        font-size: .8em;
+    }
+}
+@media only screen and (max-width: 375px) {
+    .sc_content1_img img{
+        padding-top: 20.9vw;
+        width: 100%;
+    }
+}
